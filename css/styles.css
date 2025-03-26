@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a.btn {
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Colors for Each Strand Button */
+/* Example: custom-colored buttons for each strand */
+a.btn.stem:hover {
+    background-color: #800000 !important;  /* A darker shade of maroon */
+}
+a.btn.humss:hover {
+    background-color: #006400 !important;  /* A darker shade of green */
+}
+a.btn.abm:hover {
+    background-color: #cccc00 !important;  /* A slightly darker yellow */
+}
+a.btn.afa:hover {
+    background-color: #8B4513 !important;  /* SaddleBrown for a richer tone */
+}
+a.btn.he:hover {
+    background-color: #ff69b4 !important;  /* Hot pink as a hover effect */
+}
+a.btn.ict:hover {
+    background-color: #00008b !important;  /* Dark blue */
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Card Styles for Research Entries */
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
